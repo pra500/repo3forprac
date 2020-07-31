@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+
+
+  <test name="myChrome">    
+  <parameter name="brow" value="Chrome"> </parameter>   
+  <classes>
+  <class name="pac1.Allbrowsers"/>  
+  </classes>
+  </test>
+  
+  
+   <test name="myfirefox">    
+  <parameter name="brow" value="Firefox"> </parameter>   
+  <classes>
+  <class name="pac1.Allbrowsers"/>  
+  </classes>
+   </test>
+   
+   <test name="myIE">    
+  <parameter name="brow" value="IE"> </parameter>   
+  <classes>
+  <class name="pac1.Allbrowsers"/>  
+  </classes>
+   </test>
+   
+   
+  
+  
+  
+  
+</suite> <!-- Suite -->

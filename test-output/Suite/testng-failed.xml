@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="myIE(failed)" parallel="tests">
+    <parameter name="brow" value="IE"/>
+    <classes>
+      <class name="pac1.Allbrowsers">
+        <methods>
+          <include name="getbroser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- pac1.Allbrowsers -->
+    </classes>
+  </test> <!-- myIE(failed) -->
+</suite> <!-- Failed suite [Suite] -->
